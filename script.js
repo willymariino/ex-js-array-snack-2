@@ -90,3 +90,8 @@ const discountedBooks = availableBooks.map(discountedBook => {
 
 
 console.log("libri scontati:", discountedBooks)
+
+discountedBooks.forEach(bookPrice => {
+    bookPrice.toFixed(2)
+    console.log(discountedBooks)
+})
