@@ -91,7 +91,8 @@ const discountedBooks = availableBooks.map(discountedBook => {
 
 console.log("libri scontati:", discountedBooks)
 
+// formattato 2 decimali con .toFixed()
+
 discountedBooks.forEach(bookPrice => {
-    bookPrice.toFixed(2)
-    console.log(discountedBooks)
+    console.log(bookPrice.toFixed(2))
 })
