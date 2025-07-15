@@ -56,9 +56,10 @@ Stampa in console ogni titolo nella console.
 */
 
 
-const longBooks = books.filter(libro => libro.pages > 300)
+const longBooks = books.filter(book => book.pages > 300)
 
 console.log(longBooks)
 
+const longBooksTitles = longBooks.map(bookTitle => bookTitle.title)
 
-
+console.log(longBooksTitles)
