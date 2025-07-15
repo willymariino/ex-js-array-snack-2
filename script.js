@@ -136,6 +136,6 @@ const sumAges = ages.reduce((acc, curr) => {
 
 }, 0)
 
-const medianAge = sumAges / ages.lenght
+const medianAge = sumAges / ages.length
 
 console.log(medianAge)
