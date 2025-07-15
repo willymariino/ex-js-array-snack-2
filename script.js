@@ -114,3 +114,7 @@ console.log(authors)
 areAuthorsAdults = authors.every(eta => eta.age > 18)
 
 console.log(areAuthorsAdults)
+
+authors.sort((a, b) => b.age - a.age)
+
+console.log(authors)
