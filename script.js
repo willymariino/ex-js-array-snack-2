@@ -107,6 +107,10 @@ Ordina l’array authors in base all’età, senza creare un nuovo array.
 
 */
 
-authors = books.map(A => A.author.name)
+authors = books.map(A => A.author)
 
 console.log(authors)
+
+areAuthorsAdults = authors.every(eta => eta.age > 18)
+
+console.log(areAuthorsAdults)
